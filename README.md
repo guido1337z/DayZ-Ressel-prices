@@ -2,12 +2,12 @@
 
 ##  Preços Finais ao Consumidor
 
-| Período | Preço | Preço/Dia | Desconto |
-|---------|-------|-----------|----------|
-| **1 dia** | R$ 30,00 | R$ 30,00/dia | - |
-| **7 dias** | R$ 100,00 | R$ 14,29/dia | 33% desconto |
-| **30 dias** | R$ 200,00 | R$ 6,67/dia | 78% desconto |
-| **90 dias** | R$ 450,00 | R$ 5,00/dia | 83% desconto |
+| Período | Preço | Preço/Dia | Economia/Status |
+|---------|-------|-----------|-----------------|
+| **3 dias** | R$ 50,00 | R$ 16,66/dia | Pacote Teste/Fim de Semana |
+| **7 dias** | R$ 100,00 | R$ 14,29/dia | Economize 14% (vs 3 dias) |
+| **30 dias** | R$ 200,00 | R$ 6,67/dia | Melhor Custo-Benefício |
+| **90 dias** | R$ 450,00 | R$ 5,00/dia | Opção Hardcore |
 
 ---
 
@@ -18,7 +18,7 @@
 
 | Período | Preço Revendedor | Margem de Lucro | Preço Sugerido Venda |
 |---------|------------------|-----------------|----------------------|
-| 1 dia | R$ 24,00 | R$ 6,00 (20%) | R$ 30,00 |
+| 3 dias | R$ 40,00 | R$ 10,00 (20%) | R$ 50,00 |
 | 7 dias | R$ 80,00 | R$ 20,00 (20%) | R$ 100,00 |
 | 30 dias | R$ 160,00 | R$ 40,00 (20%) | R$ 200,00 |
 | 90 dias | R$ 360,00 | R$ 90,00 (20%) | R$ 450,00 |
@@ -35,7 +35,7 @@
 
 | Período | Preço Revendedor | Margem de Lucro | Preço Sugerido Venda |
 |---------|------------------|-----------------|----------------------|
-| 1 dia | R$ 22,50 | R$ 7,50 (25%) | R$ 30,00 |
+| 3 dias | R$ 37,50 | R$ 12,50 (25%) | R$ 50,00 |
 | 7 dias | R$ 75,00 | R$ 25,00 (25%) | R$ 100,00 |
 | 30 dias | R$ 150,00 | R$ 50,00 (25%) | R$ 200,00 |
 | 90 dias | R$ 337,50 | R$ 112,50 (25%) | R$ 450,00 |
@@ -52,7 +52,7 @@
 
 | Período | Preço Revendedor | Margem de Lucro | Preço Sugerido Venda |
 |---------|------------------|-----------------|----------------------|
-| 1 dia | R$ 21,00 | R$ 9,00 (30%) | R$ 30,00 |
+| 3 dias | R$ 35,00 | R$ 15,00 (30%) | R$ 50,00 |
 | 7 dias | R$ 70,00 | R$ 30,00 (30%) | R$ 100,00 |
 | 30 dias | R$ 140,00 | R$ 60,00 (30%) | R$ 200,00 |
 | 90 dias | R$ 315,00 | R$ 135,00 (30%) | R$ 450,00 |
@@ -69,7 +69,7 @@
 
 | Período | Preço Revendedor | Margem de Lucro | Preço Sugerido Venda |
 |---------|------------------|-----------------|----------------------|
-| 1 dia | R$ 19,50 | R$ 10,50 (35%) | R$ 30,00 |
+| 3 dias | R$ 32,50 | R$ 17,50 (35%) | R$ 50,00 |
 | 7 dias | R$ 65,00 | R$ 35,00 (35%) | R$ 100,00 |
 | 30 dias | R$ 130,00 | R$ 70,00 (35%) | R$ 200,00 |
 | 90 dias | R$ 292,50 | R$ 157,50 (35%) | R$ 450,00 |
@@ -86,7 +86,7 @@
 
 | Período | Preço Revendedor | Margem de Lucro | Preço Sugerido Venda |
 |---------|------------------|-----------------|----------------------|
-| 1 dia | R$ 18,00 | R$ 12,00 (40%) | R$ 30,00 |
+| 3 dias | R$ 30,00 | R$ 20,00 (40%) | R$ 50,00 |
 | 7 dias | R$ 60,00 | R$ 40,00 (40%) | R$ 100,00 |
 | 30 dias | R$ 120,00 | R$ 80,00 (40%) | R$ 200,00 |
 | 90 dias | R$ 270,00 | R$ 180,00 (40%) | R$ 450,00 |
@@ -100,9 +100,9 @@
 
 ##  Sua Receita por Venda Direta
 
-| Período | Preço de Venda | Custo (estimado) | Lucro Líquido |
-|---------|----------------|------------------|---------------|
-| 1 dia | R$ 30,00 | ~R$ 5,00 | **R$ 25,00** |
+| Período | Preço de Venda | Custo Operacional (estimado) | Lucro Líquido |
+|---------|----------------|------------------------------|---------------|
+| 3 dias | R$ 50,00 | ~R$ 8,00 | **R$ 42,00** |
 | 7 dias | R$ 100,00 | ~R$ 15,00 | **R$ 85,00** |
 | 30 dias | R$ 200,00 | ~R$ 30,00 | **R$ 170,00** |
 | 90 dias | R$ 450,00 | ~R$ 80,00 | **R$ 370,00** |
@@ -115,15 +115,15 @@
 
 ### Venda Direta vs Revendedor
 
-| Métrica | Venda Direta | Revendedor Tier 5 |
-|---------|-------------|-------------------|
-| Preço final (30 dias) | R$ 200,00 | R$ 200,00 |
+| Métrica | Venda Direta (30 dias) | Revendedor Tier 5 (30 dias) |
+|---------|------------------------|-----------------------------|
+| Preço final | R$ 200,00 | R$ 200,00 |
 | Sua receita | R$ 200,00 | R$ 120,00 |
 | Margem | 100% | 60% |
 | Volume potencial | Baixo | Alto |
 | Risco | Alto | Baixo |
 
-**Estratégia recomendada:** Mistura de ambos para maximizar receita total.
+**Estratégia recomendada:** O foco deve ser migrar usuários de 3 dias para 30 dias, onde a retenção é maior.
 
 ---
 
@@ -157,7 +157,7 @@
 ### Para Revendedores
 
 1. **Tier é baseado em volume mensal** (reset a cada mês)
-2. **Preço mínimo de revenda:** R$ 30,00 (1 dia), R$ 100,00 (7 dias), R$ 200,00 (30 dias), R$ 450,00 (90 dias)
+2. **Preço mínimo de revenda:** R$ 50,00 (3 dias), R$ 100,00 (7 dias), R$ 200,00 (30 dias), R$ 450,00 (90 dias)
 3. **Pagamento:** Antecipado ou conforme acordo
 4. **Suporte:** Revendedores Tier 3+ recebem suporte prioritário
 5. **Marketing:** Revendedores podem usar materiais de marketing fornecidos
@@ -190,6 +190,7 @@
 
 | Métrica | Valor |
 |---------|-------|
+| Ticket de entrada (3 dias) | R$ 50,00 |
 | Preço médio por licença (30 dias) | R$ 200,00 |
 | Preço médio por licença (90 dias) | R$ 450,00 |
 | Margem média (venda direta) | 85% |
